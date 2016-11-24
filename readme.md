@@ -8,7 +8,7 @@ This checklist is used whenever a site is going live at https://spatie.be
 
 ## 2. Front-end checklist
 - [ ] Does Favicon load?
-- [ ] Search sources for `http://. Replace by `https://`
+- [ ] Search sources for `http://`. Replace by `https://`
 - [ ] Remove all `console.log`'s in scripts
 - [ ] Webfonts: is the live domain configured in typekit?.
 - [ ] Are 404, 500 en 503 pages provided. Do they contain good content like 'back to home', search or a navigation tree?
