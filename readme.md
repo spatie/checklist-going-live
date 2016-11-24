@@ -1,4 +1,6 @@
-# Checklist going live
+# A checklist for all projects that are going live
+
+This checklist is used whenever a site is going live at https://spatie.be
 
 ## 1. Browserstack tests
 - [ ] desktop: test on latest versions of Chrome, IE/Edge, Firefox, Safari
