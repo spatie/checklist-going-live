@@ -3,8 +3,8 @@
 This checklist is used whenever a site is going live at https://spatie.be
 
 ## 1. Browserstack tests
-- [ ] desktop: test on latest versions of Chrome, IE/Edge, Firefox, Safari
-- [ ] mobiel: test on latests versions of Mobile Safari, Android
+- [ ] Desktop: test on latest versions of Chrome, IE/Edge, Firefox, Safari
+- [ ] Mobile: test on latests versions of Mobile Safari, Android
 
 ## 2. Front-end checklist
 - [ ] Does Favicon load?
