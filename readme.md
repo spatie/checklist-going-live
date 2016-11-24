@@ -7,18 +7,19 @@ This checklist is used whenever a site is going live at https://spatie.be
 - [ ] Mobile: test on latests versions of Mobile Safari, Android
 
 ## 2. Front-end checklist
-- [ ] Does Favicon load?
+- [ ] Does Favicon load? Try to pin tab in Safari.
 - [ ] Search sources for `http://`. Replace by `https://`
-- [ ] Remove all `console.log`'s in scripts
-- [ ] Webfonts: is the live domain configured in typekit?.
-- [ ] Are 404, 500 en 503 pages provided. Do they contain good content like 'back to home', search or a navigation tree?
-- [ ] Test Facebook sharing / provide og-tags
+- [ ] Check JS lint errors. Remove all `console.log`'s in scripts
+- [ ] Webfonts: is the live domain configured in services like Typekit, Fonts.com etc.?
+- [ ] Are 404, 500 en 503 pages provided. Do they provide useful content like 'back to home', search or a navigation tree?
+- [ ] Test Facebook sharing. Provide og-tags if needed.
 - [ ] Is Yarn.lock present?
-- [ ] Only jQuery v3 maybe used. All references to jQuery 2 most be removed `npm ls jquery`
+- [ ] Only jQuery v3 may be used. All references to jQuery 2 must be removed `npm ls jquery`
 
 ## 3. Check content (with an open console)
 - [ ] Are all strings / images present?
 - [ ] Does the menu has a correct active state on every page?
+- [ ] Check page titles / description
 - [ ] Check for console errors
 - [ ] Check total weight of homepage
 - [ ] Check all pages for n+1 problems?
@@ -28,22 +29,22 @@ Repeat this section for all languages
 ### Components
 - [ ] Google Maps
     - [ ] Check info windows
-    - [ ] Check zoom out, should maximum be 1x world
+    - [ ] Prevent zoom out beyond 1x world
     - [ ] Try clicking on markers
-- [ ] Forms: full out with wrong/right values
-- [ ] Video: check with sound
-- [ ] Try subscribing to the newsletter
-- [ ] Check layout of mails
-- [ ] Check structured data voor news, events, products, ...
+- [ ] Forms: fill out with wrong/right values
+- [ ] Video: check with sound on
+- [ ] Try subscribing to a newsletter
+- [ ] Check layout of emails
+- [ ] Check structured data for news, events, products, ...
 
 ## 4. Pre live
 - [ ] Add redirects from old to new pages if necessary.
 
 ## 3. Post live
 - [ ] Install Let's Encrypt certificate
-- [ ] Check ssl certificate health https://www.ssllabs.com/ssltest/
+- [ ] Check SSL certificate health https://www.ssllabs.com/ssltest/
 - [ ] Check your hostfile to make sure you're looking at the live site
-- [ ] Try visiting  `www` domain, should redirect to `non-www`
+- [ ] Try visiting `www` domain, should redirect to `non-www`
 - [ ] Try out visiting `http`, should redirect to `https`
 - [ ] Verify that all http status codes are ok with https://github.com/spatie/http-status-check
 - [ ] Scan for mixed content with https://github.com/bramus/mixed-content-scan
@@ -55,21 +56,21 @@ Repeat this section for all languages
 ### Google Search Console
 - [ ] Submit all www/non-www http/https variations
 - [ ] Set up preferred domain domain to non-www https
-- [ ] Crawl > Fetchen as Google > Submit to index
+- [ ] Crawl > Fetch as Google > Submit to index to kickstart index
 
 ### Back end
-- [ ] open up `/blender`
+- [ ] Open up `/blender`
 - [ ] Try the password reset flow
 - [ ] Try saving article / news / ...
 - [ ] Verify all e-mail recipients are correct
 
 ### Server
-- [ ] are Backups Digital Ocean enabled?
-- [ ] are Amazon backups enabled?
-- [ ] is New Relic licentie server monitoring been set up?
-- [ ] is the output of artisan task backup:run ok?
-- [ ] is the frequently job configured on forge??
-- [ ] are the queues set up on Forge? ('default' and 'media_queue')?
+- [ ] Are Backups Digital Ocean enabled?
+- [ ] Are Amazon backups enabled?
+- [ ] Is New Relic licentie server monitoring been set up?
+- [ ] Is the output of artisan task `backup:run` ok?
+- [ ] Is the frequently job configured on Forge?
+- [ ] Are the queues set up on Forge? ('default' and 'media_queue')?
 
 ## About Spatie
 Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
