@@ -7,12 +7,13 @@ This checklist is used whenever a site is going live at https://spatie.be
 - [ ] Mobile: test on latests versions of Mobile Safari, Android
 
 ## 2. Front-end checklist
-- [ ] Does Favicon load? Try to pin tab in Safari.
+- [ ] Does Favicon load? Pin the tab in Safari to check icon
 - [ ] Search sources for `http://`. Replace by `https://`
+- [ ] Run `csscomb` on Scss assets
 - [ ] Check JS lint errors. Remove all `console.log`'s in scripts
 - [ ] Webfonts: is the live domain configured in services like Typekit, Fonts.com etc.?
 - [ ] Are 404, 500 en 503 pages provided. Do they provide useful content like 'back to home', search or a navigation tree?
-- [ ] Test Facebook sharing. Provide og-tags if needed.
+- [ ] Test Facebook sharing. Provide og-tags if needed
 - [ ] Is Yarn.lock present?
 - [ ] Only jQuery v3 may be used. All references to jQuery 2 must be removed `npm ls jquery`
 
