@@ -9,26 +9,27 @@ This checklist is used whenever a site is going live at https://spatie.be
 ## 2. Front-end checklist
 - [ ] Does Favicon load? Pin the tab in Safari to check icon
 - [ ] Search sources for `http://`. Replace by `https://`
-- [ ] Run `csscomb` on Scss assets
-- [ ] Check JS lint errors. Remove all `console.log`'s in scripts
+- [ ] Run `csscomb` on `scss` assets
+- [ ] Check JS lint errors. Remove all `console.log` lines in scripts
 - [ ] Webfonts: is the live domain configured in services like Typekit, Fonts.com etc.?
-- [ ] Are 404, 500 en 503 pages provided. Do they provide useful content like 'back to home', search or a navigation tree?
+- [ ] Are 404, 500 en 503 pages provided? Do they provide useful content like 'back to home', search or a navigation tree?
 - [ ] Test Facebook sharing. Provide og-tags if needed
-- [ ] Is Yarn.lock present?
+- [ ] Is `yarn.lock` present?
 - [ ] Only jQuery v3 may be used. All references to jQuery 2 must be removed `npm ls jquery`
+- [ ] Check total weight of homepage
 
 ## 3. Check content (with an open console)
 - [ ] Are all strings / images present?
 - [ ] Does the menu has a correct active state on every page?
-- [ ] Check page titles / description
+- [ ] Check page titles / descriptions
 - [ ] Check for console errors
-- [ ] Check total weight of homepage
 - [ ] Check all pages for n+1 problems?
 
 Repeat this section for all languages
 
 ### Components
 - [ ] Google Maps
+    - [ ] API key needed/configured?
     - [ ] Check info windows
     - [ ] Prevent zoom out beyond 1x world
     - [ ] Try clicking on markers
