@@ -7,25 +7,35 @@ This checklist is used whenever a site is going live at https://spatie.be
 - [ ] Mobile: test on latests versions of Mobile Safari, Android
 
 ## 2. Front-end checklist
-- [ ] Does Favicon load? Pin the tab in Safari to check icon
+
+### Assets
 - [ ] Search sources for `http://`. Replace by `https://`
 - [ ] Run `csscomb` on `scss` assets
-- [ ] Check JS lint errors. Remove all `console.log` lines in scripts
 - [ ] Webfonts: is the live domain configured in services like Typekit, Fonts.com etc.?
-- [ ] Are 404, 500 en 503 pages provided? Do they provide useful content like 'back to home', search or a navigation tree?
-- [ ] Test Facebook sharing. Provide og-tags if needed
-- [ ] Is `yarn.lock` present?
+
+### Scripts
 - [ ] Only jQuery v3 may be used. All references to jQuery 2 must be removed `npm ls jquery`
-- [ ] Check total weight of homepage
+- [ ] Is `yarn.lock` present?
+- [ ] Check JS lint errors. Remove all `console.log` lines in scripts
+- [ ] Check for console errors
+
+### Page weight
+- [ ] Evaluate total weight of at least homepage
+- [ ] Open Inspector network/timeline tab to identify heavy assets 
+- [ ] Check if heavy assets are cached 
 
 ## 3. Check content (with an open console)
-- [ ] Are all strings / images present?
-- [ ] Does the menu has a correct active state on every page?
-- [ ] Check page titles / descriptions
-- [ ] Check for console errors
-- [ ] Check all pages for n+1 problems?
+- [ ] Are all strings / images present (and translated)?
+- [ ] Does menu/submenu has a correct active state on every page?
+- [ ] Are 404, 500 en 503 pages provided? Do they provide useful content like 'back to home', search or a navigation tree?
+- [ ] Check all pages for n+1 problems
 
-Repeat this section for all languages
+### Meta
+- [ ] Check page titles / descriptions
+- [ ] Test Facebook sharing. Provide og-tags if needed
+- [ ] Does Favicon load? Pin the tab in Safari to check pinned icon
+
+_Repeat this section for all languages_
 
 ### Components
 - [ ] Google Maps
@@ -35,7 +45,7 @@ Repeat this section for all languages
     - [ ] Try clicking on markers
 - [ ] Forms: fill out with wrong/right values
 - [ ] Video: check with sound on
-- [ ] Try subscribing to a newsletter
+- [ ] Try subscribing to a newsletter with incorrect & correct email (use twice to get 'already subscribed' message)
 - [ ] Check layout of emails
 - [ ] Check structured data for news, events, products, ...
 
@@ -65,6 +75,7 @@ Repeat this section for all languages
 - [ ] Try the password reset flow
 - [ ] Try saving article / news / ...
 - [ ] Verify all e-mail recipients are correct
+- [ ] Check client's logo in header
 
 ### Server
 - [ ] Are Backups Digital Ocean enabled?
