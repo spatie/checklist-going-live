@@ -84,6 +84,7 @@ _Repeat this section for all languages_
 - [ ] Is the output of artisan task `backup:run` ok?
 - [ ] Is the frequently job configured on Forge?
 - [ ] Are the queues set up on Forge? ('default' and 'media_queue')?
+- [ ] Is the url being monitored by our uptime-monitor?
 
 ## About Spatie
 Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
