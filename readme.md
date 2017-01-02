@@ -83,7 +83,7 @@ _Repeat this section for all languages_
 ### Server
 - [ ] Are Backups Digital Ocean enabled?
 - [ ] Are Amazon backups enabled?
-- [ ] Is New Relic licentie server monitoring been set up?
+- [ ] Is New Relic license server monitoring been set up?
 - [ ] Is the output of artisan task `backup:run` ok?
 - [ ] Is the frequently job configured on Forge?
 - [ ] Are the queues set up on Forge? ('default' and 'media_queue')?
