@@ -70,7 +70,7 @@ _Repeat this section for all languages_
 
 ### Google Search Console
 - [ ] Submit all www/non-www http/https variations
-- [ ] Set up preferred domain domain to non-www https
+- [ ] Set up non-www https as the preferred domain 
 - [ ] Crawl > Fetch as Google > Submit to index to kickstart index
 
 ### Back end
