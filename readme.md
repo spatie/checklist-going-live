@@ -48,14 +48,14 @@ _Repeat this section for all languages_
     - [ ] Try clicking on markers
 - [ ] Forms: fill out with wrong/right values
 - [ ] Video: check with sound on
-- [ ] Try subscribing to a newsletter with incorrect & correct email (use twice to get 'already subscribed' message)
+- [ ] Try subscribing to a newsletter with incorrect & correct email (use correct mail twice to get 'already subscribed' message)
 - [ ] Check layout of emails
 - [ ] Check structured data for news, events, products, ...
 
 ## 4. Pre live
 - [ ] Add redirects from old to new pages if necessary.
 
-## 3. Post live
+## 5. Post live
 - [ ] Install Let's Encrypt certificate
 - [ ] Check SSL certificate health https://www.ssllabs.com/ssltest/
 - [ ] Check your hostfile to make sure you're looking at the live site
@@ -63,7 +63,7 @@ _Repeat this section for all languages_
 - [ ] Try out visiting `http`, should redirect to `https`
 - [ ] Verify that all http status codes are ok with https://github.com/spatie/http-status-check
 - [ ] Scan for mixed content with https://github.com/bramus/mixed-content-scan
-- [ ] Verify that the content of robots header is current with `curl -I https://url` om `x-robots-tag`
+- [ ] Verify that the content of robots header is current with `curl -I https://url` on `x-robots-tag`
 - [ ] Remove development DNS record
 - [ ] Check dns propagation with https://www.whatsmydns.net/
 - [ ] Verify Tag Manager / Analytics have been correctly set up
@@ -83,7 +83,7 @@ _Repeat this section for all languages_
 ### Server
 - [ ] Are Digital Ocean backups enabled?
 - [ ] Are Amazon backups enabled?
-- [ ] Is New Relic license server monitoring been set up?
+- [ ] Has New Relic license server monitoring been set up?
 - [ ] Is the output of artisan task `backup:run` ok?
 - [ ] Is the frequently job configured on Forge?
 - [ ] Are the queues set up on Forge? ('default' and 'media_queue')?
