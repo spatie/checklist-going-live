@@ -50,12 +50,10 @@ _Repeat this section for all languages_
 - [ ] Video: check with sound on
 - [ ] Try subscribing to a newsletter with incorrect & correct email (use correct mail twice to get 'already subscribed' message)
 - [ ] Check layout of emails
-- [ ] Check structured data for news, events, products, ...
+- [ ] Check structured data for news, events, products,... https://search.google.com/structured-data/testing-tool/
 
-## 4. Pre live
+## 4. Server, DNS & Servics
 - [ ] Add redirects from old to new pages if necessary.
-
-## 5. Post live
 - [ ] Install Let's Encrypt certificate
 - [ ] Check SSL certificate health https://www.ssllabs.com/ssltest/
 - [ ] Check your hostfile to make sure you're looking at the live site
@@ -73,13 +71,6 @@ _Repeat this section for all languages_
 - [ ] Set up non-www https as the preferred domain 
 - [ ] Crawl > Fetch as Google > Submit to index to kickstart index
 
-### Back end
-- [ ] Open up `/blender`
-- [ ] Try the password reset flow
-- [ ] Try saving article / news / ...
-- [ ] Verify all e-mail recipients are correct
-- [ ] Check client's logo in header
-
 ### Server
 - [ ] Are Digital Ocean backups enabled?
 - [ ] Are Amazon backups enabled?
@@ -88,6 +79,13 @@ _Repeat this section for all languages_
 - [ ] Is artisan scheduled on Forge?
 - [ ] Are the queues set up on Forge? ('default' and 'media_queue')?
 - [ ] Is the url being monitored by our uptime-monitor?
+
+## 5. Final checks
+- [ ] Open up `/blender`
+- [ ] Try the password reset flow
+- [ ] Try saving article / news / ...
+- [ ] Verify all e-mail recipients are correct
+- [ ] Check client's logo in header
 
 ## About Spatie
 Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
