@@ -85,7 +85,7 @@ _Repeat this section for all languages_
 - [ ] Are Amazon backups enabled?
 - [ ] Has New Relic license server monitoring been set up?
 - [ ] Is the output of artisan task `backup:run` ok?
-- [ ] Is the frequently job configured on Forge?
+- [ ] Is artisan scheduled on Forge?
 - [ ] Are the queues set up on Forge? ('default' and 'media_queue')?
 - [ ] Is the url being monitored by our uptime-monitor?
 
