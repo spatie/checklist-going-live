@@ -30,7 +30,7 @@ This checklist is used whenever a project is going live at https://spatie.be
 ## 3. Check content (with an open console)
 - [ ] Are all strings / images present (and translated)?
 - [ ] Does menu/submenu have a correct active state on every page?
-- [ ] Are 404, 500 en 503 pages provided? Do they provide useful content like 'back to home', search or a navigation tree?
+- [ ] Are 404, 500 and 503 pages provided? Do they provide useful content like 'back to home', search or a navigation tree?
 - [ ] Check all pages for n+1 problems
 
 ### Meta
