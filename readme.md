@@ -82,7 +82,9 @@ _Repeat this section for all languages_
 
 ## 5. Final checks
 - [ ] Open up `/blender`
-- [ ] Try the password reset flow
+- [ ] Configure Analytics dashboard
+- [ ] Create a new admin and try to log in
+- [ ] Try the password reset flow for existing user
 - [ ] Try saving article / news / ...
 - [ ] Verify all e-mail recipients are correct
 - [ ] Check client's logo in header
