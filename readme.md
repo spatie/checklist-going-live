@@ -6,7 +6,7 @@ This checklist is used whenever a project is going live at https://spatie.be
 - [ ] Desktop: test on latest versions of Chrome, IE/Edge, Firefox, Safari
 - [ ] Mobile: test on latest versions of Mobile Safari, Android
 
-## 2. Front-end checklist
+## 2. Front end checklist
 
 ### Assets
 - [ ] Search sources for `http://`. Replace by `https://`
@@ -52,7 +52,17 @@ _Repeat this section for all languages_
 - [ ] Check layout of emails
 - [ ] Check structured data for news, events, products,... https://search.google.com/structured-data/testing-tool/
 
-## 4. Server, DNS & Servics
+## 4. Back end checklist
+- [ ] Open up `/blender`
+- [ ] Remove unused modules from main menu 
+- [ ] Configure Analytics dashboard
+- [ ] Create a new admin and try to log in
+- [ ] Try the password reset flow for existing user
+- [ ] Try saving article / news / ...
+- [ ] Verify all e-mail recipients are correct
+- [ ] Check client's logo in header
+
+## 5. Server, DNS & Servics
 - [ ] Add redirects from old to new pages if necessary.
 - [ ] Install Let's Encrypt certificate
 - [ ] Check SSL certificate health https://www.ssllabs.com/ssltest/
@@ -80,14 +90,8 @@ _Repeat this section for all languages_
 - [ ] Are the queues set up on Forge? ('default' and 'media_queue')?
 - [ ] Is the url being monitored by our uptime-monitor?
 
-## 5. Final checks
-- [ ] Open up `/blender`
-- [ ] Configure Analytics dashboard
-- [ ] Create a new admin and try to log in
-- [ ] Try the password reset flow for existing user
-- [ ] Try saving article / news / ...
-- [ ] Verify all e-mail recipients are correct
-- [ ] Check client's logo in header
+### Github
+- [ ] Remove `develop` branch or other stale branches 
 
 ## About Spatie
 Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
