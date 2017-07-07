@@ -10,7 +10,7 @@ This checklist is used whenever a project is going live at https://spatie.be
 
 ### Assets
 - [ ] Search sources for `http://`. Replace by `https://`
-- [ ] Run `csscomb` on `scss` assets
+- [ ] Lint (s)css sources
 - [ ] Webfonts: is the live domain configured in services like Typekit, Fonts.com etc.?
 
 ### Scripts
