@@ -92,7 +92,7 @@ _Repeat this section for all languages_
 - [ ] Is the server being monitored by our server-monitor?
 - [ ] Do urls with `index.php` get redirected?
 
-```
+```nginx
 if ($request_uri ~* "^(.*/)index\.php/?(.*)") {
     return 301 "$1$2";
 }
