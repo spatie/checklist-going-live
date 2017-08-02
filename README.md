@@ -97,6 +97,11 @@ if ($request_uri ~* "^(.*/)index\.php/?(.*)") {
     return 301 "$1$2";
 }
 ```
+- [ ] Is the cron job for scheduled tasks added?
+
+```Shell
+* * * * * php /path-to-your-project/artisan schedule:run >> /dev/null 2>&1
+```
 
 ### Github
 - [ ] Remove `develop` branch or other stale branches 
