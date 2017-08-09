@@ -87,7 +87,7 @@ _Repeat this section for all languages_
 - [ ] Are Amazon backups enabled?
 - [ ] Is the output of artisan task `backup:run` ok?
 - [ ] Is artisan scheduled on Forge?
-- [ ] Are the queues set up on Forge? ('default' and 'media_queue')?
+- [ ] Are the queues set up on Forge? ('default' and 'media_queue')? Do they have a low max return limit?
 - [ ] Is the url being monitored by our uptime-monitor?
 - [ ] Is the server being monitored by our server-monitor?
 - [ ] Do urls with `index.php` get redirected?
