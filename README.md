@@ -71,7 +71,7 @@ _Repeat this section for all languages_
 - [ ] Try visiting `www` domain, should redirect to `non-www`
 - [ ] Try out visiting `http`, should redirect to `https`
 - [ ] Verify that all http status codes are ok with https://github.com/spatie/http-status-check
-- [ ] Scan for mixed content with https://github.com/bramus/mixed-content-scan
+- [ ] Scan for mixed content with https://github.com/spatie/mixed-content-scanner-cli
 - [ ] Verify that the content of robots header is current with `curl -I https://url` on `x-robots-tag`
 - [ ] Remove development DNS record
 - [ ] Check dns propagation with https://www.whatsmydns.net/
