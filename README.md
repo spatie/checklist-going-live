@@ -90,13 +90,6 @@ _Repeat this section for all languages_
 - [ ] Are the queues set up on Forge? ('default' and 'media_queue')? Do they have a low max return limit?
 - [ ] Is the url being monitored by our uptime-monitor?
 - [ ] Is the server being monitored by our server-monitor?
-- [ ] Do urls with `index.php` get redirected?
-
-```nginx
-if ($request_uri ~* "^(.*/)index\.php/?(.*)") {
-    return 301 "$1$2";
-}
-```
 
 ### Github
 - [ ] Remove `develop` branch or other stale branches 
