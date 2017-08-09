@@ -63,7 +63,7 @@ _Repeat this section for all languages_
 - [ ] Verify all e-mail recipients are correct
 - [ ] Check client's logo in header
 
-## 5. Server, DNS & Servics
+## 5. Server, DNS & Services
 - [ ] Add redirects from old to new pages if necessary.
 - [ ] Install Let's Encrypt certificate
 - [ ] Check SSL certificate health https://www.ssllabs.com/ssltest/
