@@ -61,6 +61,7 @@ _Repeat this section for all languages_
 - [ ] Try the password reset flow for existing user
 - [ ] Try saving article / news / ...
 - [ ] Verify all e-mail recipients are correct
+- [ ] Scan database for urls to development domain
 - [ ] Check client's logo in header
 
 ## 5. Server, DNS & Services
@@ -72,7 +73,7 @@ _Repeat this section for all languages_
 - [ ] Try out visiting `http`, should redirect to `https`
 - [ ] Verify that all http status codes are ok with https://github.com/spatie/http-status-check
 - [ ] Scan for mixed content with https://github.com/spatie/mixed-content-scanner-cli
-- [ ] Verify that the content of robots header is current with `curl -I https://url` on `x-robots-tag`
+- [ ] Verify that the content of robots header is current with `curl-I https://url` on `x-robots-tag`
 - [ ] Remove development DNS record
 - [ ] Check dns propagation with https://www.whatsmydns.net/
 - [ ] Verify Tag Manager / Analytics have been correctly set up
