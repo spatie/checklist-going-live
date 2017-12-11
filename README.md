@@ -84,7 +84,7 @@ _Repeat this section for all languages_
 - [ ] Crawl > Fetch as Google > Submit to index to kickstart index
 
 ### Server
-- [ ] Are Digital Ocean backups enabled?
+- [ ] Are DigitalOcean backups enabled?
 - [ ] Are Amazon backups enabled?
 - [ ] Is the output of artisan task `backup:run` ok?
 - [ ] Is artisan scheduled on Forge?
