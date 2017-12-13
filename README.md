@@ -13,6 +13,7 @@ This checklist is used whenever a project is going live at https://spatie.be
 - [ ] Lint (s)css sources
 - [ ] Webfonts: is the live domain configured in services like Typekit, Fonts.com etc.?
 - [ ] Is the browserlist properly configured for autoprefixer and babel-preset-env?
+- [ ] When using PurgeCSS: check if layout is preserved.
 
 ### Scripts
 - [ ] Only jQuery v3 may be used. All references to jQuery 2 must be removed `npm ls jquery`
