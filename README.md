@@ -90,7 +90,6 @@ _Repeat this section for all languages_
 - [ ] Is the output of artisan task `backup:run` ok?
 - [ ] Is artisan scheduled on Forge?
 - [ ] Is Horizon configured in Supervisor on Forge? Command should be `php artisan horizon`. Path should be `/home/forge/my-new-site.com/current`
-- [ ] Are the queues set up on Forge? ('default' and 'media_queue')? Do they have a low max return limit?
 - [ ] Is the url being monitored by our uptime-monitor?
 - [ ] Is the server being monitored by our server-monitor?
 
