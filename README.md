@@ -16,7 +16,6 @@ This checklist is used whenever a project is going live at https://spatie.be
 - [ ] When using PurgeCSS: check if layout is preserved.
 
 ### Scripts
-- [ ] Only jQuery v3 may be used. All references to jQuery 2 must be removed `npm ls jquery`
 - [ ] Is `yarn.lock` present?
 - [ ] Check JS lint errors. Remove all `console.log` lines in scripts
 - [ ] Check for console errors
@@ -90,7 +89,7 @@ _Repeat this section for all languages_
 - [ ] Is the output of artisan task `backup:run` ok?
 - [ ] Is artisan scheduled on Forge?
 - [ ] Is Horizon configured in Supervisor on Forge? Command should be `php artisan horizon`. Path should be `/home/forge/my-new-site.com/current`
-- [x] Is the url being monitored by [Oh Dear!](https://ohdearapp.com/)?
+- [ ] Is the url being monitored by [Oh Dear!](https://ohdearapp.com/)?
 - [ ] Is the server being monitored by our server-monitor?
 
 ### Github
