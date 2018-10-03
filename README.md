@@ -25,8 +25,9 @@ This checklist is used whenever a project is going live at https://spatie.be
 - [ ] Open Inspector network/timeline tab to identify heavy assets 
 - [ ] Check if heavy assets are cached 
 
-### Performance
-- [ ] Use the Chrome DevTools and throttle your CPU and network with 10x CPU slowdown and set the network to "Good 3G".
+### Audits
+- [ ] Use the Chrome DevTools and perform a mobile audit (with throttling) to fix common problems.
+- [ ] Repeat with a desktop audit.
 
 ## 3. Check content (with an open console)
 - [ ] Are all strings / images present (and translated)?
