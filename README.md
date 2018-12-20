@@ -26,7 +26,7 @@ This checklist is used whenever a project is going live at https://spatie.be
 - [ ] Check if heavy assets are cached 
 
 ### Audits
-- [ ] Use the Chrome DevTools and perform a mobile audit (with throttling) to fix common problems.
+- [ ] Use the Chrome DevTools (in incognito mode) and perform a mobile audit (with throttling) to fix common problems.
 - [ ] Repeat with a desktop audit.
 
 ## 3. Check content (with an open console)
