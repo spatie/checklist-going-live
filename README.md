@@ -5,7 +5,7 @@ This checklist is used whenever a project is going live at https://spatie.be
 
 ## Support us
 
-[![Image](https://github-ads.s3.eu-central-1.amazonaws.com/checklist-going-live.jpg)](https://spatie.be/github-ad-click/checklist-going-live)
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/checklist-going-live.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/checklist-going-live)
 
 We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 
