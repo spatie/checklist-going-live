@@ -1,6 +1,3 @@
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
-
 # A checklist for all projects that are going live
 
 This checklist is used whenever a project is going live at https://spatie.be
@@ -109,4 +106,4 @@ _Repeat this section for all languages_
 - [ ] Remove `develop` branch or other stale branches 
 
 ## About Spatie
-Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
+Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
