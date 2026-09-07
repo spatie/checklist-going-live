@@ -99,7 +99,7 @@ _Repeat this section for all languages_
 - [ ] Is the output of artisan task `backup:run` ok?
 - [ ] Is artisan scheduled on Forge?
 - [ ] Is Horizon configured in Supervisor on Forge? Command should be `php artisan horizon`. Path should be `/home/forge/my-new-site.com/current`
-- [ ] Is the url being monitored by [Oh Dear!](https://ohdearapp.com/)?
+- [ ] Is the url being monitored by [Oh Dear](https://ohdear.app)?
 - [ ] Is the server being monitored by our server-monitor?
 
 ### Github
